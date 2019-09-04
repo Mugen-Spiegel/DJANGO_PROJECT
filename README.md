@@ -6,7 +6,7 @@ Follow the Instruction to run the application.
 
 
 *** Edit the docker-compose-inventory.yml and env.yml first ***
-
+*** GO TO location where the clone application located ***
 
 
 1. Download The Docker and Docker Compose for your environment.
