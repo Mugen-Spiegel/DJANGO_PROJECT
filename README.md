@@ -3,6 +3,12 @@
 
 Follow the Instruction to run the application.
 
+
+
+*** Edit the docker-compose-inventory.yml and env.yml first ***
+
+
+
 1. Download The Docker and Docker Compose for your environment.
 2. docker-compose -f docker-compose-mysql.yml up. 
 NOTE:
