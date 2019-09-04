@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: python-env
+    container_name: inventory
+    command: -c "cd /var/www/html/inventory && python3 manage.py migrate store && python3 manage.py loaddata initial_data.json &&  python3 manage.py runserver 0.0.0.0:3000"
+    networks:
+      - inventory
+    ports:
+      - 8010:8010
+      - 3000:3000
+      - 3002:3002
+    volumes:
+      - C:\Users\NOC-986\Desktop\django_project:/var/www/html/inventory
+    tty: true
+    stdin_open: true
+networks:
+  inventory:
+    driver: bridge

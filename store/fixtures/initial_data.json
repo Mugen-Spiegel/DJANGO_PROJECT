@@ -1,0 +1,202 @@
+[
+    {
+      "model": "store.Store",
+      "pk": 1,
+      "fields":{
+            "name": "CanadaPeakDesign",
+            "url": "http://www.CanadaPeakDesign.com"
+        }
+    },
+    {
+      "model": "store.Store",
+      "pk": 2,
+      "fields": {
+        "name": "FloridaPeakDesign",
+        "url": "http://www.FloridaPeakDesign.com"
+        }
+    },
+    {
+        "model": "store.Store",
+        "pk": 3,
+        "fields":{
+            "name": "SingaporePeakDesign",
+            "url": "http://www.SingaporePeakDesign.com"
+        }
+    },
+    {
+        "model": "store.Store",
+        "pk": 4,
+        "fields": {
+            "name": "PhilippinesPeakDesign",
+            "url": "http://www.PhilippinesPeakDesign.com"
+        }
+    },
+    {
+        "model": "store.Store",
+        "pk": 5,
+        "fields": {
+          "name": "JapanPeakDesign",
+          "url": "http://www.JapanPeakDesign.com"
+          }
+    },
+    {
+        "model": "store.Product",
+        "pk": 1,
+        "fields":{
+              "name": "Camera_Nikon_Backpack_Bag_",
+              "sku": "1ABS21-12ASAD1-10",
+              "inventory_created_time": "2019-09-04",
+              "inventory_updated_time": "2019-09-04"
+          }
+      },
+      {
+        "model": "store.Product",
+        "pk": 2,
+        "fields":{
+            "name": "Camera_Nikon_sling_Bag",
+            "sku": "1ABS21-12ASAD1-11",
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      },
+      {
+          "model": "store.Product",
+          "pk": 3,
+          "fields":{
+            "name": "Camera_Nikon_belt_Bag",
+            "sku": "1ABS21-12ASAD1-13",
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      },
+      {
+          "model": "store.Product",
+          "pk": 4,
+          "fields":{
+            "name": "Camera_Nikon_Big_Bag",
+            "sku": "1ABS21-12ASAD1-14",
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      },
+      {
+          "model": "store.Product",
+          "pk": 5,
+          "fields":{
+            "name": "Camera_Nikon_Small_Bag",
+            "sku": "1ABS21-12ASAD1-15",
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      },
+      {
+        "model": "store.StoreStock",
+        "pk": 1,
+        "fields":{
+              "store": 1,
+              "product": 1,
+              "inventory_quantity": 100,
+              "inventory_created_time": "2019-09-04",
+              "inventory_updated_time": "2019-09-04"
+          }
+      },
+      {
+        "model": "store.StoreStock",
+        "pk": 2,
+        "fields":{
+            "store": 1,
+            "product": 2,
+            "inventory_quantity": 100,
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      },
+      {
+          "model": "store.StoreStock",
+          "pk": 3,
+          "fields":{
+            "store": 1,
+            "product": 3,
+            "inventory_quantity": 100,
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      },
+      {
+          "model": "store.StoreStock",
+          "pk": 4,
+          "fields":{
+            "store": 1,
+            "product": 4,
+            "inventory_quantity": 100,
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      },
+      {
+          "model": "store.StoreStock",
+          "pk": 5,
+          "fields":{
+            "store": 1,
+            "product": 5,
+            "inventory_quantity": 100,
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      },
+      {
+        "model": "store.StoreStock",
+        "pk": 6,
+        "fields":{
+              "store": 2,
+              "product": 1,
+              "inventory_quantity": 100,
+              "inventory_created_time": "2019-09-04",
+              "inventory_updated_time": "2019-09-04"
+          }
+      },
+      {
+        "model": "store.StoreStock",
+        "pk": 7,
+        "fields":{
+            "store": 2,
+            "product": 2,
+            "inventory_quantity": 100,
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      },
+      {
+          "model": "store.StoreStock",
+          "pk": 8,
+          "fields":{
+            "store": 2,
+            "product": 3,
+            "inventory_quantity": 100,
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      },
+      {
+          "model": "store.StoreStock",
+          "pk": 9,
+          "fields":{
+            "store": 2,
+            "product": 4,
+            "inventory_quantity": 100,
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      },
+      {
+          "model": "store.StoreStock",
+          "pk": 10,
+          "fields":{
+            "store": 2,
+            "product": 5,
+            "inventory_quantity": 100,
+            "inventory_created_time": "2019-09-04",
+            "inventory_updated_time": "2019-09-04"
+        }
+      }
+  ]
