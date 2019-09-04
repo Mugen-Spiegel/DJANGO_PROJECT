@@ -10,11 +10,12 @@ Follow the Instruction to run the application.
 
 
 1. Download The Docker and Docker Compose for your environment.
-2. docker-compose -f docker-compose-mysql.yml up. 
+2. after installing of docker, execute the "docker-compose -f docker-compose-mysql.yml up"
 NOTE:
 (IMPORTANT) Wait for 2 minute before to execute the step 3 just to make sure that the database is ready.
 
-3. open another terminal and run the docker-compose -f docker-compose-inventory.yml up. The application is ready when the container is finish to build 
+3. open another terminal and execute the "docker-compose -f docker-compose-inventory.yml up"
+The application is ready when the container is finish to build 
 
 You should see this 
 ************************************************************************
