@@ -14,9 +14,11 @@ services:
       - 3002:3002
     volumes:
       # - location-of-application-on-your-pc:/var/www/html/inventory
-      # - C:\Users\NOC-986\Desktop\django_project:/var/www/html/inventory
+      - C:\Users\NOC-986\Desktop\django_project:/var/www/html/inventory
     tty: true
     stdin_open: true
+    # depends_on:
+    #  - database
 networks:
   inventory:
     driver: bridge
