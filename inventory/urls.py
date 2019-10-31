@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import include
 # from django.urls import path, include, re_path
 from store import views
 urlpatterns = [
+    path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
     path('admin/', admin.site.urls),
     path('store', views.store),
     path('products', views.products),
@@ -25,3 +27,10 @@ urlpatterns = [
     path(r'products/inventory', views.updateStoreStock),
     path(r'store/products', views.addStoreProductStock), #This End point is addional this is to add existing product to store
 ]
+
+
+# username:tamay06131993@gmail.com
+# password:jophattamayo
+# grant_type:client_credentials
+# client_id:F6NRnSNt1GhHTSLc26AEvOcA0uZ5c15JztTmhNEL
+# client_secret:PdAMiWuvkq8VvzqqnMGulPjTGkbV58L86arAV8Oiwqe0UePQLuET3OFT962wXxFjPBsBSHBP8F7eqzhjpSBTqCNJOhilOxC39nZPM1hEGax5BDKXhwCAjzDp4YO2tQmv
